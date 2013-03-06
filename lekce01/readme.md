@@ -10,6 +10,8 @@
 
 [Example - 500 pixels](gradient.png)
 
+Also, other colors may be produced via change in the color function: [green and blue](green-blue.png), [green and red](green-red.png) and if all three colors are changed, [green and purple](green-purple.png).
+
 ## Star from lines
 
 [Star from lines](lines.py) produces SVG file of a star generated only from lines. Every line comes from point on one axis (x or y) to point on the other axis. These axis divide the whole image into four quadrants with same dimensions. Also, sum of distances from the center of the star to starting and ending point of every line is kept the same.
