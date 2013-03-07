@@ -54,9 +54,41 @@ def star_pentagon_absolute(linesize = 100):
 	
 	svg.save()
 
+def spiral_relative(linesize = 100, angle = 20, outer = 10):
+	t = turtle("spiral_relative.svg")
+	t.pendown()
+	
+	for i in range(outer):
+		for j in range(4):
+			t.forward(linesize)
+			t.right(90)
+			
+		d = math.radians(angle)
+		# degree = angle ACD
+		# BC = AD
+		#A---D 
+		# | /
+		#C|/
+		# |
+		#B----
+		# AC + AD = linesize
+		# AD / AC = tan (degree)
+		# CD = AD / sin (degree)
+		
+		ad = linesize * math.tan(d) / (1 + math.tan(d))
+		ac = linesize - ad
+		cd = ad / math.sin(d) #math.sqrt(ac ** 2  + ad ** 2)
+				
+		t.forward(ad)
+		t.right(angle)
+		linesize = cd
+	t.save()
+	
+
 def main():
 	star_pentagon_relative()
 	star_pentagon_absolute()
+	spiral_relative(100, 16, 15)
 	return 0
 
 if __name__ == '__main__':
