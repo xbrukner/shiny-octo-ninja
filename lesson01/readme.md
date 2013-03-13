@@ -16,6 +16,6 @@ Also, other colors may be produced via change in the color function: [green and 
 
 [Star from lines](lines.py) produces SVG file of a star generated only from lines. Every line comes from point on one axis (x or y) to point on the other axis. These axis divide the whole image into four quadrants with same dimensions. Also, sum of distances from the center of the star to starting and ending point of every line is kept the same.
 
-[Small image](http://xbrukner.github.com/shiny-octo-ninja/lesson01/lines-normal.svg) shows the structure of the star, [dense example](http://xbrukner.github.com/shiny-octo-ninja/lesson01/lines-dense.svg) shows a star with lots of lines. [Int rounding](http://xbrukner.github.com/shiny-octo-ninja/lekce01/lines-dense-int.svg) shows what happens, if division for size is not done correctly (when integers are used instead of floats).
+[Small image](http://xbrukner.github.com/shiny-octo-ninja/lesson01/lines-normal.svg) shows the structure of the star, [dense example](http://xbrukner.github.com/shiny-octo-ninja/lesson01/lines-dense.svg) shows a star with lots of lines. [Int rounding](http://xbrukner.github.com/shiny-octo-ninja/lesson01/lines-dense-int.svg) shows what happens, if division for size is not done correctly (when integers are used instead of floats).
 
 
