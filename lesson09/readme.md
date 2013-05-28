@@ -7,9 +7,9 @@ The resulting values correlate with probabilities - approximately 1/3 for stay, 
 
 ```
 Staying:
-32, 41 successful
+32, 41, 34, 31, 34, 38, 42, 42, 27, 34 successful (mean = 35.5%)
 Changing:
-68, 69 successful
+68, 69, 60, 64, 68, 71, 75, 70, 63, 66 successful (mean = 67.4%)
 Random:
-50, 43 successful
+50, 43, 53, 48, 53, 46, 54, 53, 50, 53 successful (mean = 50.3%)
 ```
